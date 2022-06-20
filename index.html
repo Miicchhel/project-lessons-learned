@@ -12,14 +12,22 @@
         <h1 id="titulo"> Lições aprendidas - Trybe!</h1>
     </header>
     <main>
-        <section class="minha_foto">
-            <img id="minha_foto" src="minha-foto2.png" alt="Foto do aluno Michel Ferreira">
-            <p class="minha_foto_texto">Olá, tudo bem?<br>Bem-vindo ao meu <strong>primeiro projeto</strong> como aluno estudante da <a href="https://www.betrybe.com/" target="_blank">Trybe</a>.<br>A partir de agora compartilharei com você algumas coisas que já aprendi estudando por aqui.</p>
-        </section>
-        <article class="licoes">
+        
+        <aside class="sobre">
+            <div class="sobre_mim">
+                <img id="minha_foto" src="minha-foto2.png" alt="Foto do aluno Michel Ferreira">
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/michel-ferreira-90746a54/"><img src="./linkedin--v2.png" alt="Ícone do linkedin"></a>
+                    <a href="https://www.instagram.com/eu_zinhu/"><img src="./instagram-new.png" alt="Ícone do instagram"></a>
+                </div>
+            </div>
+            <p class="minha_foto_texto">Bem-vindo ao meu <strong>primeiro projeto</strong> como aluno estudante da <a href="https://www.betrybe.com/" target="_blank">Trybe</a>.<br>A partir de agora compartilharei com você algumas coisas que já aprendi estudando por aqui.</p>
+        </aside>
+        
+        <section class="licoes">
             <h2 class="licoes_titulo">Lista de lições</h2>
             <div class="licoes_container">
-                <section class="licoes_aprendidas">
+                <article class="licoes_aprendidas">
                     <h3 class="licoes_aprendidas_titulo">Lições Aprendidas</h3>
                     <ol id="licoes_aprendidas" class="box">
                         <li>Unix</li>
@@ -33,8 +41,8 @@
                         <li>CSS</li>
                         <li>Inspect</li>
                     </ol>
-                </section>
-                <section class="licoes_a_aprender">
+                </article>
+                <div class="licoes_a_aprender">
                     <h3 class="licoes_a_aprender_titulo">Lições futuras</h3>
                     <ul id="licoes_a_aprender" class="box">
                         <li>JavaScript</li>
@@ -48,9 +56,9 @@
                         <li>Node</li>
                         <li>SQL</li>
                     </ul>
-                </section>
+                </div>
             </div>
-        </article>
+        </section>
     </main>
     <footer id="rodape">
         <span>Todos os direitos reservados, Michel Ferreira</span>
