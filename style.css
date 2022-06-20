@@ -7,6 +7,12 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+.box {
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+/* header */
 #cabecalho {
   position: fixed;
   top: 0;
@@ -17,10 +23,12 @@ body {
   background-color: rgb(40, 108, 82);
 }
 
+/* main */
 main {
   margin-top: 67px;
 }
 
+/* foto */
 .minha_foto {
   width: 100%;
   display: flex;
@@ -44,4 +52,36 @@ main {
   font-weight: 600;
   text-decoration: none;
   background-color: rgb(71, 145, 110);
+}
+
+/* lições */
+.licoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.licoes_titulo {
+  margin-bottom: 2rem;
+}
+
+.licoes_container {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.licoes_container li {
+  margin-bottom: 1rem;
+}
+
+#licoes_aprendidas li:hover {
+  font-weight: 700;
+  border-bottom: 2px dotted rgb(71, 145, 110);
+}
+
+#licoes_a_aprender li:hover {
+  font-weight: 300;
+  border-bottom: 2px dotted rgb(167, 88, 88);
 }
