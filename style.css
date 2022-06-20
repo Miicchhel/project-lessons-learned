@@ -16,3 +16,32 @@ body {
   text-align: center;
   background-color: rgb(40, 108, 82);
 }
+
+main {
+  margin-top: 67px;
+}
+
+.minha_foto {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgba(128, 128, 128, 0.149);
+}
+
+#minha_foto {
+  width: 350px;
+  transform: rotate(45deg);
+}
+
+.minha_foto_texto {
+  line-height: 2rem;
+}
+
+.minha_foto_texto a {
+  padding: 2px;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: rgb(71, 145, 110);
+}
